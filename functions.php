@@ -13,7 +13,7 @@ function pdo_connect(){
 }
 
 function bot_token_path(){
-    $token = "712671264:AAHqyTMJJ6tB5kXU8GD5KuX4dAKFhSD3og8";
+    $token = "[your_bot_token]";
     $path = "https://api.telegram.org/bot" . $token;
 
     return $path;
